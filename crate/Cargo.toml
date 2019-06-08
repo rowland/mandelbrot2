@@ -46,3 +46,6 @@ features = [
 
 [features]
 default = ["console_error_panic_hook"]
+
+[profile.release]
+lto = true
